@@ -1,0 +1,27 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "A RESTful API in Express",
+  "main": "main",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkateshdi/trials-one.git"
+  },
+  "keywords": [
+    "one-api"
+  ],
+  "author": "Venkatesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venkateshdi/trials-one/issues"
+  },
+  "homepage": "https://github.com/venkateshdi/trials-one#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "nedb": "^1.7.1"
+  }
+}
