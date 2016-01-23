@@ -5,6 +5,9 @@ var app = express();
 var router = express.Router(); //create to use express middleware.
 var port = process.env.PORT || 3000;
 
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
+
 //log requests with express middleware.
 router.use(function(req, res, next){
     console.log('\nIncoming request... %s %s', req.method, req.path);
